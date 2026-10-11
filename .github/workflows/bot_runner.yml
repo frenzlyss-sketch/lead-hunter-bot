@@ -12,6 +12,9 @@ name: Lead Hunter Bot
         default: "false"
         type: boolean
 
+permissions:
+  contents: write
+
 jobs:
   hunt:
     runs-on: ubuntu-latest
